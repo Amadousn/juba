@@ -32,13 +32,13 @@ export const model = {
   manifesto:
     "French model blending soft masculinity with a cinematic, urban aesthetic. Drawn to runway, streetwear and contemporary fashion campaigns — influenced by European editorials and understated luxury.",
   bioShort:
-    "French model. Available for editorial, runway and commercial collaborations across Paris, Milan and London.",
+    "French model based in Marseille. Available for editorial, runway and commercial collaborations across Marseille, Paris, Milan and London.",
   bioLong:
     "Juba Zerzour is a French model whose work sits between European editorial restraint and contemporary streetwear energy. His presence reads as composed and quietly intense — a softness that holds the frame without overstating it. He moves comfortably between runway, beauty, editorial and commercial briefs, with a particular pull toward narrative campaigns and understated luxury.",
 
   location: {
-    base: "Paris",
-    cities: ["Paris", "Milan", "London"],
+    base: "Marseille",
+    cities: ["Marseille", "Paris", "Milan", "London"],
     country: "France",
   },
 
@@ -47,7 +47,7 @@ export const model = {
     bust: { value: 97, unit: "cm" },
     waist: { value: 82, unit: "cm" },
     hips: { value: 106, unit: "cm" },
-    shoes: { value: 43, unit: "EU" }, // TODO: confirm
+    shoes: { value: 44, unit: "EU" },
     hair: "Dark brown",
     eyes: "Brown",
   },
@@ -100,7 +100,7 @@ export const gallery: GalleryImage[] = [
     label: "Beauty",
     category: "beauty",
     ratio: 845 / 1040,
-    position: "50% 30%",
+    position: "70% 30%",
     priority: true,
   },
   {
@@ -147,7 +147,7 @@ export const gallery: GalleryImage[] = [
     id: "lifestyle-corridor",
     src: "/photos/clean/lifestyle-corridor.png",
     alt: "Zerzour Juba — lifestyle, corridor night",
-    caption: "Corridor · Paris",
+    caption: "Corridor · Marseille",
     label: "Corridor",
     category: "lifestyle",
     ratio: 917 / 550,
@@ -165,13 +165,13 @@ export const gallery: GalleryImage[] = [
   },
   {
     id: "studio-fulllength",
-    src: "/photos/clean/studio-fulllength.png",
-    alt: "Zerzour Juba — full-length studio portrait",
-    caption: "Full length · Studio",
-    label: "Full length",
-    category: "bodyshot",
-    ratio: 700 / 1035,
-    position: "50% 30%",
+    src: "/photos/clean/closing-portrait.jpg",
+    alt: "Zerzour Juba — black-and-white studio portrait",
+    caption: "Portrait · Studio",
+    label: "Portrait",
+    category: "editorial",
+    ratio: 3840 / 2560,
+    position: "50% 35%",
   },
   {
     id: "polaroid-a",

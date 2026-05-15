@@ -82,7 +82,7 @@ function Chapter({
       }`}
     >
       <motion.figure
-        style={{ y: yImg, aspectRatio: chapter.image.ratio }}
+        style={{ y: yImg, aspectRatio: 4 / 5 }}
         className="relative col-span-12 sm:col-span-7 sm:[direction:ltr]"
       >
         <motion.div style={{ scale }} className="absolute inset-0 overflow-hidden bg-[var(--paper-soft)]">

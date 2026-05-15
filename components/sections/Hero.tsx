@@ -55,7 +55,7 @@ export function Hero() {
           Portfolio · MMXXV
         </span>
         <span className="tracking-meta text-[var(--ink)]/65">
-          Paris · Milan · London
+          Marseille · Paris · Milan · London
         </span>
       </motion.div>
 
